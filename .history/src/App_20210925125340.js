@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <header><span>C</span>OCKTAIL</header>
-        <ListCocktails />
+
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.input
+{
+    text-align: center;
+    margin-bottom: 30px;
+    input 
+    {
+        background-color: white;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px;
+
+    .product-cocktail {
+        max-width: 300px;
+        white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        p {
+            span {
+                white-space: inherit;
+                text-overflow: inherit;
+                overflow: inherit;
+                color: crimson;
+            }
+        }
+    }
+}

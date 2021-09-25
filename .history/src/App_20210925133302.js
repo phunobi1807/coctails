@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
         <header><span>C</span>OCKTAIL</header>
+        <input type="text" name="" id="" />
         <ListCocktails />
     </div>
   );
